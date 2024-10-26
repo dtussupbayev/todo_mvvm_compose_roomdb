@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.dagger.hilt.android)
+    implementation(libs.androidx.room.ktx)
     ksp(libs.dagger.hilt.compiler)
     implementation(libs.androidx.hilt.lifecycle.viewmodel)
     ksp(libs.androidx.hilt.compiler)
