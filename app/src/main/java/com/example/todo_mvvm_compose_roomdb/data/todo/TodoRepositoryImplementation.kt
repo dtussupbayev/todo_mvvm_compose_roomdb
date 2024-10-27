@@ -17,7 +17,7 @@ class TodoRepositoryImplementation(
         return dao.getTodoById(id)
     }
 
-    override suspend fun getTodos(): Flow<List<Todo>> {
+    override fun getTodos(): Flow<List<Todo>> {
         return dao.getTodos()
     }
 }

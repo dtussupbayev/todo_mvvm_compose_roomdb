@@ -9,5 +9,5 @@ interface TodoRepository {
 
     suspend fun getTodoById(id: Int): Todo?
 
-    suspend fun getTodos(): Flow<List<Todo>>
+    fun getTodos(): Flow<List<Todo>>
 }
